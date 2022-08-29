@@ -1,0 +1,36 @@
+.App {
+  position: relative; 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App::before {
+  content: "";
+  background-image: url('../public/img/lion.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+span {
+  position: relative;
+  height: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin: auto;
+}
